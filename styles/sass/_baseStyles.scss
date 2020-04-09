@@ -1,0 +1,454 @@
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+button {
+    background-color: #F38D8D;
+    padding: 10px 20px;
+    border: none;
+}
+
+body, button, nav ul {
+    font-size: 2rem;
+}
+
+body, button {
+    line-height: 32px;
+}
+
+form {
+    // display: flex;
+    // flex-direction: column;
+}
+
+form {
+    width: 100%;
+}
+
+form button {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.form-content {
+    width: 70%;
+    float: right;
+    margin-left: 25px;
+}
+
+input[type=email], input[type=text] {
+    width: 49%;
+    padding: 15px;
+    border: none;
+}
+
+input[type=email] {
+    float: right;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, button, nav ul {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 4.2rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+header {
+    background-color: #B9DDE7;
+    height: 10vh;
+}
+
+header i {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    font-size: 4.5rem;
+    visibility: hidden;
+}
+
+nav {
+    padding: 10px 0;
+}
+
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // margin: 10px 20px;
+}
+
+nav a {
+    // padding: 20px 15px;
+    margin: 35px;
+    color: black;
+}
+
+nav a:hover, nav a:focus {
+    color: white;
+}
+
+button:hover, button:focus {
+    color: blue;
+    background-color: white;
+    border: 1px solid #F38D8D;
+}
+
+.harper-title a {
+    font-size: 3.5rem;
+}
+.wrapper {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+// Header Styles
+
+
+.headerImage {
+    width: 400px;
+    // margin-top: 40px;
+}
+
+.headerImage img {
+    margin-top: 40px;
+    // float: right;
+}
+
+.header-content {
+    background-color: #B9DDE7;
+    height: 500px;
+    display: flex;
+    position: relative;
+    // float: left;
+    // justify-content: space-between;
+}
+
+.title-tag, .circle-text {
+    // float: right;
+    // display: f lex;
+    // justify-content: center;
+    // align-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+
+.header-container {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // margin: 10px;
+    // float: right;
+    width: 250px;
+}
+
+.circle-text {
+    width: 150px;
+    padding-top: 10px;
+    display: flex;
+    top: 35%;
+    left: 75%;
+}
+
+.header-container h1 {
+    font-size: 12rem;
+    line-height: 92px;
+    // margin-left: 40px;
+}
+
+.header-container h1, nav ul {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.who-is-harper, .main-features, .harper-journey {
+    background-color: #F6F6F6;
+}
+
+.who-is-harper {
+    
+    height: 425px;
+    // display: flex;
+    // justify-content: flex-end;
+    padding: 50px;
+}
+
+.who-is-harper-content, .header-container {
+    width: calc(50% - 20px);
+    float: right;
+}
+
+// FEATURES SECTION 
+
+.main-features-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 1%;
+}
+
+.feature {
+    display: flex;
+    width: 50%;
+}
+
+.feature-content {
+    margin: 10px 20px;
+}
+
+.feature-content p, .who-is-harper-content p {
+    padding: 25px 0;
+}
+
+.feature p {
+    clear: both;
+}
+
+.icon {
+    width: 150px;
+    height: 50px;
+    background-color: #B9DDE7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon i {
+
+}
+
+// for the medie queries beginning
+.travels {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.favourites {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 50px 0;
+
+}
+
+.harper-journey {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 20px ;
+    padding: 30px;
+    
+}
+
+.travels-image-container1 {
+    // float: left;
+    width: calc(50% - 20px);
+    box-shadow: -130px 20px 0 0 #68B0C1;
+    // box-shadow: 20px 20px 0 -5px #68B0C1;
+}
+
+
+.travels-image-container2 {
+    // float: right;
+    width: calc(50% - 20px);
+}
+
+.journey-image-container {
+    width: 250px;
+    height: 250px;
+    box-shadow: 20px 20px #227284;
+}
+
+.travels-content {
+    // float: right;
+    width: calc(50% - 20px);
+    padding: 30px 0 30px 60px;
+
+}
+
+.favourite-things-content {
+    // float: left;
+    width: calc(50% - 20px);
+    padding: 30px 30px 30px 0;
+
+}
+
+.journey-content {
+    width: 50%;
+    // padding: 100px 0;
+}
+
+.photo-gallery-container {
+    margin: 80px auto;
+    display: flex;
+    // flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.photo-gallery-container img {
+    width: calc(33% - 20px);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+aside {
+    width: 300px;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;  
+}
+
+.recent-posts-container ul {
+    padding: 20px;
+    list-style-type: circle;
+}
+
+.content-container {
+    margin: 0 70px;
+}
+.blog-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.blogpost-content {
+    background-color: white;
+    padding: 30px;
+    border-bottom: solid #227284;
+    width: 700px;
+}
+
+.blog-page, .contact-page {
+    background-color: #F6F6F6;
+}
+
+.about-harper-container, .recent-posts-container {
+    background-color: white;
+}
+
+.title-blog, .title-contact-me {
+    position: relative;
+    bottom: 25px;
+}
+.title-blog h1, .title-contact-me h1 {
+    font-size: 7rem;
+}
+
+.maggie, .daisy {
+    display: flex;
+    margin: 20px 0;
+    background-color: white;
+    border-bottom: solid #227284;
+}
+
+.blogpost-avatar-maggie img, .blogpost-avatar-daisy img {
+    padding: 30px;
+}
+
+.blogpost-avatar-maggie, .blogpost-avatar-daisy{
+    width: calc(30% - 40px);
+}
+
+.blogpost-comment-maggie, .blogpost-comment-daisy  {
+    width: 80%;
+    padding: 30px 30px 30px 0;
+}
+
+.contact-info-links {
+    width: 335px;
+    background-color: white;
+    padding: 40px 25px;
+    height: 20%;
+
+}
+
+.contact-form {
+    margin-top: 50px;
+    display: flex;
+}
+
+.contact-form i {
+    margin-right: 15px;
+    color: #227284;
+    font-size: 2.4rem;
+}
+
+
+.contact-content span {
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+
+.contact-content p:first-child {
+    margin: 10px 0;
+}
+.travels-image-container1 img {
+    // box-shadow: 8px 8px 1px #68B0C1;
+}
+
+// .box {
+//     background-color: #68B0C1;
+//     width: 500px;
+//     height: 300px;
+// }
+
+// .travels {
+//     z-index: 1;
+//     position: relative;
+//     top: 30px;
+// }
