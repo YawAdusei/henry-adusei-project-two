@@ -363,7 +363,7 @@ nav a:hover, nav a:focus {
 }
 
 button:hover, button:focus {
-  color: #F38D8D;
+  color: blue;
   background-color: white;
   border: 1px solid #F38D8D;
 }
@@ -516,6 +516,8 @@ button:hover, button:focus {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-shadow: 20px;
+          box-shadow: 20px;
   padding: 30px;
 }
 
@@ -532,8 +534,8 @@ button:hover, button:focus {
 .journey-image-container {
   width: 250px;
   height: 250px;
-  -webkit-box-shadow: -4px 32px 0 -3px #227284;
-          box-shadow: -4px 32px 0 -3px #227284;
+  -webkit-box-shadow: 20px 20px #227284;
+          box-shadow: 20px 20px #227284;
 }
 
 .travels-content {
